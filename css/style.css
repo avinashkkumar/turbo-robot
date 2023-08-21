@@ -138,7 +138,7 @@ nav {
 }
 
 .layer2 {
-  background-image: url("/asset/img/stacked-waves-haikei.svg");
+  background-image: url("../asset/img/stacked-waves-haikei.svg");
 }
 
 /* ******************** Hero *********** */
@@ -168,7 +168,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 40vw;
-  min-width: 30rem;
+  min-width: 25rem;
 }
 
 .about > h1 {
@@ -229,7 +229,7 @@ nav {
   }
 }
 
-/* ******************** patent section ***************** */
+/* ******************** research section ***************** */
 .research-papers {
   margin: 2vw;
   display: flex;
@@ -300,7 +300,7 @@ nav {
   height: 1.6rem;
 }
 
-/* ******************** patent section responsive *********** */
+/* ******************** research section responsive *********** */
 @media screen and (max-width: 1150px) {
   .research-card {
     width: 75vw;
@@ -339,6 +339,7 @@ nav {
   }
   .research-card {
     width: 100%;
+    margin: 1rem 0 1rem 0;
   }
 
   .paper {
@@ -774,7 +775,7 @@ ul li .descr::before {
 .training-container{
   display: flex;
   flex-direction: row-reverse;
-
+  flex-wrap: wrap;
 }
 
 .training-card{
@@ -804,7 +805,7 @@ ul li .descr::before {
 }
 
 .layer1 {
-  background-image: url("/asset/img/layered-waves-haikei(1).svg");
+  background-image: url("../asset/img/layered-waves-haikei(1).svg");
 }
 
 .foot {
