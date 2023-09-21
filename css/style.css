@@ -234,7 +234,7 @@ nav {
   margin: 2vw;
   display: flex;
   flex-direction: column;
-  margin: 8vw 0rem;
+  margin: 4vw 0rem;
 }
 
 .section-title {
@@ -555,7 +555,7 @@ ul li .descr::before {
 
 .education-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -580,9 +580,17 @@ ul li .descr::before {
 .sdesc {
   padding: 2rem;
 }
+
+@media screen and (max-width: 750px) {
+  .education-header{
+    
+  }
+}
+
 /* ******************** Patent section *********** */
 .patent-header{
   text-align: center;
+  margin-top: 6rem;
   color: var(--darkest);
 }
 .div.patent{
@@ -722,7 +730,8 @@ ul li .descr::before {
 }
 
 .certifications > h2{
-  padding: 0.5rem 0 0.5rem 5vw
+  padding: 0.5rem 0 0.5rem 5vw;
+  font-size: 2rem;
 }
 
 .cert-container{
@@ -759,6 +768,55 @@ ul li .descr::before {
     justify-content: space-around;
   }
 }
+/* ******************** training header *********** */
+.admin-roles{
+  margin: 0 0 1rem 0;
+}
+.admin-header{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.admin-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 8rem;
+}
+
+.admin-card{
+  width: 22.5rem;
+  height: 5rem;
+  background-color: #1f2a30;
+  border-radius: 0.4rem;
+  color: #ffc75e;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .admin-container{
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .admin-container{
+    padding: 0 1.5rem;
+  }
+}
+
+
 
 
 /* ******************** training header *********** */
@@ -769,6 +827,7 @@ ul li .descr::before {
 .training-header{
   text-align: end;
   color: var(--darkest);
+  font-size: 2rem;
 }
 
 
